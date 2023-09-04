@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'seleccionar',
+    loadChildren: () => import('./seleccionar/seleccionar.module').then( m => m.SeleccionarPageModule)
+  },
 ];
 
 @NgModule({
