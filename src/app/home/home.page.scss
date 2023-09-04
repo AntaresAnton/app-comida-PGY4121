@@ -26,6 +26,7 @@
   text-decoration: none;
 }
 
-body{
-  background-image: url(https://via.placeholder.com/720x1280);
+
+.background-image{
+  --background: url(https://via.placeholder.com/720x1280) 0 0/100% 100% no-repeat;
 }
