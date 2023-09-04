@@ -14,7 +14,23 @@ const routes: Routes = [
   {
     path: 'seleccionar',
     loadChildren: () => import('./seleccionar/seleccionar.module').then( m => m.SeleccionarPageModule)
+  },  {
+    path: 'comidas-por-pais',
+    loadChildren: () => import('./comidas-por-pais/comidas-por-pais.module').then( m => m.ComidasPorPaisPageModule)
   },
+  {
+    path: 'comidas-por-tipo',
+    loadChildren: () => import('./comidas-por-tipo/comidas-por-tipo.module').then( m => m.ComidasPorTipoPageModule)
+  },
+  {
+    path: 'postres',
+    loadChildren: () => import('./postres/postres.module').then( m => m.PostresPageModule)
+  },
+  {
+    path: 'comidas-aleatorias',
+    loadChildren: () => import('./comidas-aleatorias/comidas-aleatorias.module').then( m => m.ComidasAleatoriasPageModule)
+  },
+
 ];
 
 @NgModule({
