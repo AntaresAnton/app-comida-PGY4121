@@ -1,10 +1,95 @@
+// colores globales para la app
+// textos
+.tx-crema{
+  color: #FFD182;
+}
+.tx-verde-osc{
+  color: #003611;
+}
+.tx-verde-claro{
+  color: #00C67F;
+}
+.tx-azul{
+  color: #2F4295;
+}
+.tx-naranjo{
+  color: #F75442;
+}
+.tx-ros-claro{
+  color: #F9E5E1;
+}
+.tx-ros-oscuro{
+  color: #F6AC9B;
+}
+.tx-cafe{
+  color:#99682E;
+}
+
+// Backgrounds
+.bg-crema{
+  background-color: #FFD182;
+}
+.bg-verde-osc{
+  background-color: #003611;
+}
+.bg-verde-claro{
+  background-color: #00C67F;
+}
+.bg-azul{
+  background-color: #003611;
+}
+.bg-naranjo{
+  background-color: #F75442;
+}
+.bg-ros-claro{
+  background-color: #F9E5E1;
+}
+.bg-ros-oscuro{
+  background-color: #F6AC9B;
+}
+.bg-cafe{
+  color:#99682E;
+}
+
+// peso visual textos
+.tx100{
+  font-weight: 100;
+}
+.tx200{
+  font-weight: 200;
+}
+.tx300{
+  font-weight: 300;
+}
+.tx400{
+  font-weight: 400;
+}
+.tx500{
+  font-weight: 500;
+}
+.tx600{
+  font-weight: 600;
+}
+.tx700{
+  font-weight: 700;
+}
+.tx800{
+  font-weight: 800;
+}
+
+.user-cheems{
+  width: auto;
+  margin: auto;
+  display: block;
+}
+
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #F75442;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -83,11 +168,11 @@
    */
 
   body {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #F75442;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255,255,255;
-    --ion-color-primary-shade: #3a7be0;
+    --ion-color-primary-shade: #c14335;
     --ion-color-primary-tint: #5598ff;
 
     --ion-color-secondary: #50c8ff;
