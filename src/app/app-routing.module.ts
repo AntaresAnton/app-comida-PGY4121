@@ -3,18 +3,19 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: 'inicio',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'inicio',
     pathMatch: 'full'
   },
   {
     path: 'seleccionar',
     loadChildren: () => import('./seleccionar/seleccionar.module').then( m => m.SeleccionarPageModule)
-  },  {
+  },
+  {
     path: 'comidas-por-pais',
     loadChildren: () => import('./comidas-por-pais/comidas-por-pais.module').then( m => m.ComidasPorPaisPageModule)
   },
@@ -29,6 +30,10 @@ const routes: Routes = [
   {
     path: 'comidas-aleatorias',
     loadChildren: () => import('./comidas-aleatorias/comidas-aleatorias.module').then( m => m.ComidasAleatoriasPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
 
 ];
