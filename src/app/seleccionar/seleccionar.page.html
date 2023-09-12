@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-text-center background-image">
+<ion-content [fullscreen]="true" class="ion-text-center background-image" [scrollEvents]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <!-- <ion-title size="large">seleccionar</ion-title> -->
@@ -20,8 +20,8 @@
   <img class="secciones" src="../../assets/img/postres.png" alt="">
   <img class="secciones" src="../../assets/img/aleatoria.png" alt="">
 
-  <ion-button class="text-center" shape="round">Subir</ion-button>
-  <a href="home"><ion-button class="text-center" shape="round">Volver</ion-button></a>
+  <ion-button class="text-center" shape="round" >Subir</ion-button>
+  <a href="home"><ion-button class="text-center" shape="round" [routerLink]="['/inicio']">Volver</ion-button></a>
 
 </ion-content>
 
