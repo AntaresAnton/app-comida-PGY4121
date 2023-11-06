@@ -4,7 +4,12 @@
       {{ randomMeal.strMeal }}
     </ion-card-header>
     <ion-card-content>
+      <img src="{{ randomMeal.strMealThumb }}" alt="{{ randomMeal.strstrMealThumb }}">
+      <p>Nombre del plato:</p>
       {{ randomMeal.strInstructions }}
+      <p>área del plato -  localidad: {{ randomMeal.strArea }}</p>
+      <p>categoría: </p>
     </ion-card-content>
   </ion-card>
 </ion-content>
+
