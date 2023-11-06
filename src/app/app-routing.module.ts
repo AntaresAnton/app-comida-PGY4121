@@ -24,16 +24,16 @@ const routes: Routes = [
     loadChildren: () => import('./seleccionar/seleccionar.module').then( m => m.SeleccionarPageModule)
   },
   {
-    path: 'comidas-aleatorias',
-    loadChildren: () => import('./comidas-aleatorias/comidas-aleatorias.module').then( m => m.ComidasAleatoriasPageModule)
-  },
-  {
     path: 'comidas-por-pais',
     loadChildren: () => import('./comidas-por-pais/comidas-por-pais.module').then( m => m.ComidasPorPaisPageModule)
   },
   {
     path: 'comidas-por-tipo',
     loadChildren: () => import('./comidas-por-tipo/comidas-por-tipo.module').then( m => m.ComidasPorTipoPageModule)
+  },
+  {
+    path: 'comidas-aleatorias',
+    loadChildren: () => import('./comidas-aleatorias/comidas-aleatorias.module').then( m => m.ComidasAleatoriasPageModule)
   },
 ];
 
