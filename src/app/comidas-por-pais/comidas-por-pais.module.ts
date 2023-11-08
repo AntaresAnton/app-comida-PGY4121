@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
-
+import { HttpClientModule } from '@angular/common/http';
 import { ComidasPorPaisPageRoutingModule } from './comidas-por-pais-routing.module';
 
 import { ComidasPorPaisPage } from './comidas-por-pais.page';
@@ -13,7 +13,8 @@ import { ComidasPorPaisPage } from './comidas-por-pais.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ComidasPorPaisPageRoutingModule
+    ComidasPorPaisPageRoutingModule,
+    HttpClientModule
   ],
   declarations: [ComidasPorPaisPage]
 })

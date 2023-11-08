@@ -29,3 +29,19 @@ export class MealService2 {
     return this.http.get(this.apiUrl);
   }
 }
+
+
+// Módulo para los paises
+
+@Injectable({
+  providedIn: 'root'
+})
+export class MealService3 {
+  private apiUrl = 'https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian';
+
+  constructor(private http: HttpClient) { }
+
+  getPaises(): Observable<any> {
+    return this.http.get(this.apiUrl);
+  }
+}

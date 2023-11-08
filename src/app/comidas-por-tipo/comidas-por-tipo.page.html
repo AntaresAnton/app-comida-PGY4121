@@ -29,18 +29,16 @@
     </ion-row>
   </ion-grid>
 
-
-
-  <ion-accordion-group *ngFor="let category of categories">
+  <ion-accordion-group *ngFor="let cat of categories">
     <ion-accordion value="first">
       <ion-item slot="header" color="light">
         <ion-thumbnail slot="start">
-          <img alt="{{ category.strCategoryThumb }}" src="{{ category.strCategoryThumb }}" />
+          <img alt="{{ cat.strCategoryThumb }}" src="{{ cat.strCategoryThumb }}" />
         </ion-thumbnail>
-        <ion-label>{{ category.strCategory }}</ion-label>
+        <ion-label>{{ cat.strCategory }}</ion-label>
       </ion-item>
       <div class="ion-padding" slot="content">
-        <p>Descripción: <i>{{ category.strCategoryDescription }}</i></p>
+        <p>Descripción: <i>{{ cat.strCategoryDescription }}</i></p>
       </div>
     </ion-accordion>
     <!-- <ion-accordion value="second">

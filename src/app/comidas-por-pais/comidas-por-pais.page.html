@@ -16,7 +16,7 @@
       <ion-col>
         <div class="seccion-user text-center">
           <img class="user-cheems" src="../../assets/img/user-cheems.png" alt="">
-        <h2 class="tx-azul ">Comidas <br> <span class="tx700">Por País</span></h2>
+        <h2 class="tx-azul ">Comidas <br> <span class="tx700">Por País </span></h2>
         <p class="tx-cafe tx500">Lista de comidas típicas de diferentes países para probar y disfrutar.</p>
         <ion-button class="redondeado" [routerLink]="['/seleccionar']">Volver</ion-button>
         <ion-item>
@@ -32,8 +32,15 @@
       <ion-card-title>Card Title</ion-card-title>
       <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
     </ion-card-header> -->
-    <ion-card-content>
-      <ion-list>
+
+
+    <div *ngFor="let comida of pais">
+      <p >{{comida.strMeal}}</p>
+    </div>
+
+
+    <!-- <ion-card-content>
+      <ion-list >
         <ion-item>
           <ion-thumbnail slot="start">
             <img alt="texto ejemplo" src="../../assets/img/user-cheems.png" />
@@ -66,6 +73,6 @@
           <p>detalle</p>
         </ion-item>
       </ion-list>
-    </ion-card-content>
+    </ion-card-content> -->
 
 </ion-content>

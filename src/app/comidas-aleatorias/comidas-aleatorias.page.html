@@ -1,15 +1,28 @@
 <ion-header >
   <ion-toolbar>
-    <ion-title>Receta Aleatoria</ion-title>
+    <ion-title class="txt-naranjo">Receta Aleatoria</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content >
+
+
+<ion-content class="row mt-4">
+
+  <div class=" text-center">
+    <img class="user-cheems" src="../../assets/img/user-cheems.png" alt="">
+    <h2 class="tx-azul tx700">Aleatorio</h2>
+    <p class="tx-cafe tx500">¿Te apetece probar algo delicioso? Descubre nuestros platos en la aplicación y elige tu favorito para disfrutar en casa. ¡Buen provecho!</p>
+    <ion-button class="redondeado" [routerLink]="['/seleccionar']">Volver</ion-button>
+  </div>
+
+  
+
+
   <ion-card *ngIf="randomMeal">
-    <img src="{{ randomMeal.strMealThumb }}" alt="{{ randomMeal.strMealThumb }}">
+    <img class="text-center" src="{{ randomMeal.strMealThumb }}" alt="{{ randomMeal.strMealThumb }}">
     <ion-card-header>
       <ion-card-subtitle>Área: {{ randomMeal.strArea }}</ion-card-subtitle>
-      <ion-card-title>{{ randomMeal.strMeal }}</ion-card-title>
+      <ion-card-title class="txt-naranjo">{{ randomMeal.strMeal }}</ion-card-title>
     </ion-card-header>
 
     <ion-card-content>
@@ -38,10 +51,10 @@
           {{ randomMeal.strInstructions }}
         </li>
       </ol>
-
-      <h3>Más información</h3>
-      <button class="btn btn-primary"><a target="_blank" href="{{randomMeal.strSource}}">{{randomMeal.strIngredient1}}</a></button>
-
+      
+      <div class="acerca de text-center">
+        <a target="_blank" href="{{randomMeal.strSource}}"><button class="btn btn-secondary">Más información sobre {{randomMeal.strIngredient1}}</button></a>
+      </div>
     </ion-card-content>
   </ion-card>
 </ion-content>
