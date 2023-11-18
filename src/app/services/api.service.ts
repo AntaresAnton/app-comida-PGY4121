@@ -45,3 +45,20 @@ export class MealService3 {
     return this.http.get(this.apiUrl);
   }
 }
+
+
+
+// desde el localhost
+@Injectable({
+  providedIn: 'root'
+})
+export class CategoriaService {
+
+  private apiUrl = 'http://localhost:8081/categorias';
+
+  constructor(private http: HttpClient) { }
+
+  getCategorias() {
+    return this.http.get<any[]>(this.apiUrl);
+  }
+}
