@@ -33,12 +33,12 @@
     <ion-accordion value="first">
       <ion-item slot="header" color="light">
         <ion-thumbnail slot="start">
-          <img alt="{{ cat.strCategoryThumb }}" src="{{ cat.strCategoryThumb }}" />
+          <img alt="{{ cat.imagen }}" src="{{ cat.imagen }}" />
         </ion-thumbnail>
         <ion-label>{{ cat.nombre }}</ion-label>
       </ion-item>
       <div class="ion-padding" slot="content">
-        <p>Fecha Creación: <i>{{ cat.fecha_creacion }}</i></p>
+        <p>Descripción: <i>{{ cat.comentario }}</i></p>
       </div>
     </ion-accordion>
     <!-- <ion-accordion value="second">

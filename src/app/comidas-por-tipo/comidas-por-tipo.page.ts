@@ -28,7 +28,7 @@ import { MealService,CategoriaService } from '../services/api.service';
 
 export class ComidasPorTipoPage implements OnInit {
 
-  categories: any[1];
+  categories: any[3];
 
   constructor(private categoriaService: CategoriaService) { }
 

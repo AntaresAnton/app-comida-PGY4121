@@ -48,7 +48,7 @@ export class MealService3 {
 
 
 
-// desde el localhost
+// desde el localhost para las comidas por tipo
 @Injectable({
   providedIn: 'root'
 })
