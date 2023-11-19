@@ -29,45 +29,28 @@
   </ion-grid>
 
 
-    <!-- <ion-card-header>
-      <ion-card-title>Card Title</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-    </ion-card-header> -->
-    <ion-card-content>
-      <ion-list>
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item lines="none">
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-      </ion-list>
-    </ion-card-content>
+    <ion-accordion-group *ngFor="let post of postre">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-thumbnail slot="start">
+          <img alt=" {{post.url_imagen}} " src="{{post.url_imagen}}" />
+        </ion-thumbnail>
+        <ion-label>{{post.nombre}}</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <p>Ingredientes: <i>{{post.ingrediente}}</i></p>
+        <hr>
+        <p>Preparación: <i>{{post.preparacion}}</i></p>
+      </div>
+    </ion-accordion>
+    <!-- <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Second Accordion</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Second Content</div>
+    </ion-accordion> -->
+   
+  </ion-accordion-group>
 
 
 </ion-content>

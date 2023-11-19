@@ -34,45 +34,16 @@
     </ion-card-header> -->
 
 
-    <div *ngFor="let comida of pais">
-      <p >{{comida.strMeal}}</p>
-    </div>
-
-
-    <!-- <ion-card-content>
+    <ion-card-content *ngFor="let comida of pais">
       <ion-list >
         <ion-item>
           <ion-thumbnail slot="start">
-            <img alt="texto ejemplo" src="../../assets/img/user-cheems.png" />
+            <img alt="texto ejemplo" src="{{comida.url_imagen}}" />
           </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="texto ejemplo" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="texto ejemplo" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-          <p>detalle</p>
-        </ion-item>
-
-        <ion-item lines="none">
-          <ion-thumbnail slot="start">
-            <img alt="texto ejemplo" src="../../assets/img/user-cheems.png" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
+          <ion-label>{{comida.nombre}}</ion-label>
           <p>detalle</p>
         </ion-item>
       </ion-list>
-    </ion-card-content> -->
+    </ion-card-content>
 
 </ion-content>
