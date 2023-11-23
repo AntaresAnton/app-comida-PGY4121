@@ -13,3 +13,5 @@ public class CategoriaDTO {
     private int id_usr;
     
 }
+    
+}

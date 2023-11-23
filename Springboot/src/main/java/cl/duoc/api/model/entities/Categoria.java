@@ -27,15 +27,15 @@ public class Categoria {
     private String fecha_creacion;
 
     @Basic
-    @Column(name = "comentario")
+     @Column(name = "comentario")
     private String comentario;
-
     @Basic
     @Column(name = "imagen")
     private String imagen;
-
     @Basic
     @Column(name = "id_usr")
     private int id_usr;
 
 }
+
+   
