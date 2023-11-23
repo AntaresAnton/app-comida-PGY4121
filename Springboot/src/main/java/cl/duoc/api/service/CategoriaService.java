@@ -2,7 +2,7 @@ package cl.duoc.api.service;
 
 import cl.duoc.api.model.entities.Categoria;
 import cl.duoc.api.model.repositories.CategoriaRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public class CategoriaService {
 
     private final CategoriaRepository categoriaRepository;
 
-    @Autowired
+    // @Autowired
     public CategoriaService(CategoriaRepository categoriaRepository) {
         this.categoriaRepository = categoriaRepository;
     }

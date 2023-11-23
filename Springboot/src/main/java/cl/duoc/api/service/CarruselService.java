@@ -2,7 +2,7 @@ package cl.duoc.api.service;
 
 import cl.duoc.api.model.entities.Carrusel;
 import cl.duoc.api.model.repositories.CarruselRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public class CarruselService {
 
     private final CarruselRepository carruselRepository;
 
-    @Autowired
+    // @Autowired
     public CarruselService(CarruselRepository carruselRepository) {
         this.carruselRepository = carruselRepository;
     }

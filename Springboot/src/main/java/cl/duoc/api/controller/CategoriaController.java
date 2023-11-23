@@ -4,7 +4,7 @@ import cl.duoc.api.model.dto.CategoriaDTO;
 import cl.duoc.api.model.entities.Categoria;
 import cl.duoc.api.service.CategoriaService;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +18,7 @@ public class CategoriaController {
 
     private final CategoriaService categoriaService;
 
-    @Autowired
+    // @Autowired
     public CategoriaController(CategoriaService categoriaService) {
         this.categoriaService = categoriaService;
     }

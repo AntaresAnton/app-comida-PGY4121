@@ -1,9 +1,9 @@
 package cl.duoc.api.service;
 
-import cl.duoc.api.model.entities.Categoria;
+// import cl.duoc.api.model.entities.Categoria;
 import cl.duoc.api.model.entities.Pais;
 import cl.duoc.api.model.repositories.PaisRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,7 +14,7 @@ public class PaisService {
 
     private final PaisRepository paisRepository;
 
-    @Autowired
+    // @Autowired
     public PaisService(PaisRepository paisRepository) {
         this.paisRepository = paisRepository;
     }

@@ -4,7 +4,7 @@ import cl.duoc.api.model.dto.UsuarioDTO;
 import cl.duoc.api.model.entities.Usuario;
 import cl.duoc.api.service.UsuarioService;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +18,7 @@ public class UsuarioController {
 
     private final UsuarioService usuarioService;
 
-    @Autowired
+    // @Autowired
     public UsuarioController(UsuarioService usuarioService) {
         this.usuarioService = usuarioService;
     }

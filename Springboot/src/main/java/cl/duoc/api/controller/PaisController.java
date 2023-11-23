@@ -4,7 +4,7 @@ import cl.duoc.api.model.dto.PaisDTO;
 import cl.duoc.api.model.entities.Pais;
 import cl.duoc.api.service.PaisService;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +18,7 @@ public class PaisController {
 
     private final PaisService paisService;
 
-    @Autowired
+    // @Autowired
     public PaisController(PaisService paisService) {
         this.paisService = paisService;
     }

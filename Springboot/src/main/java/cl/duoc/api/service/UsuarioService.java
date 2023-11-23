@@ -2,7 +2,7 @@ package cl.duoc.api.service;
 
 import cl.duoc.api.model.entities.Usuario;
 import cl.duoc.api.model.repositories.UsuarioRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public class UsuarioService {
 
     private final UsuarioRepository usuarioRepository;
 
-    @Autowired
+    // @Autowired
     public UsuarioService(UsuarioRepository usuarioRepository) {
         this.usuarioRepository = usuarioRepository;
     }

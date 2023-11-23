@@ -4,7 +4,7 @@ import cl.duoc.api.model.dto.CarruselDTO;
 import cl.duoc.api.model.entities.Carrusel;
 import cl.duoc.api.service.CarruselService;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +18,7 @@ public class CarruselController {
 
     private final CarruselService carruselService;
 
-    @Autowired
+    // @Autowired
     public CarruselController(CarruselService carruselService) {
         this.carruselService = carruselService;
     }
