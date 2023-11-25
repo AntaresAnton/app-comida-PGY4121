@@ -28,3 +28,9 @@ https://www.youtube.com/watch?v=hzSUU1Gul-c
 
 Para la base de datos (MySQL) se utilizó XAMPP
 Para verificar la funcionalidad de la conexión API, se utilizó un complemento de Chrome (NoesIf CORS)
+
+
+![Por País](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/por-pais.png)
+![Por Tipo](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/por-tipo.png)
+![Postres ](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/postres.png)
+![Aleatoria ](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/aleatoria.png)
