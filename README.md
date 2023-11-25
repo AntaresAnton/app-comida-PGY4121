@@ -1,4 +1,4 @@
-![Cheems](src\assets\img\por-pais.png)
+![Cheems](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/user-cheems.png)
 
 
 # app-comida-PGY4121
