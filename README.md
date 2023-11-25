@@ -1,3 +1,6 @@
+![Cheems](src\assets\img\por-pais.png)
+
+
 # app-comida-PGY4121
 App sobre recetas del mundo, + Springboot
 En la siguiente App podrás ver recetas del mundo (utilizando como base, información de la api TheMealDB)
