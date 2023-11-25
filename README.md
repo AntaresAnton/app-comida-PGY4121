@@ -24,3 +24,4 @@ https://www.youtube.com/watch?v=hzSUU1Gul-c
     npm i -g @angular/cli
 
 Para la base de datos (MySQL) se utilizó XAMPP
+Para verificar la funcionalidad de la conexión API, se utilizó un complemento de Chrome (NoesIf CORS)
