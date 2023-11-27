@@ -1,4 +1,4 @@
-![Cheems](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/user-cheems.png)
+![Cheems](https://raw.githubusercontent.com/AntaresAnton/app-comida-PGY4121/main/src/assets/img/banner.jpg)
 
 
 # app-comida-PGY4121
